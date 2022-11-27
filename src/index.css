@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card-img {
+    @apply w-[40%] h-[160px];
+  }
+
+  .card {
+    @apply max-w-[350px] p-4 my-4 rounded-lg w-full h-[200px] justify-between flex items-center;
+  }
+  .input {
+    @apply block text-sm font-semibold bg-gray-200 px-8 py-2 rounded-md;
+  }
+
+  .btn {
+    @apply bg-black text-white font-semibold rounded-md px-8 py-2 cursor-pointer;
+  }
+
+  .card-header {
+    @apply text-3xl font-bold;
+  }
+  .card-paragraph {
+    @apply text-sm font-semibold;
+  }
+}
